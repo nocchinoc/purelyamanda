@@ -1,0 +1,263 @@
+.headergrid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: 100px repeat(11, 75px);
+}
+.logo {
+  background: #d3d3d3;
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
+@@font-face {
+  font-family: "ShorelinesScriptBold";
+  src: url('ShorelinesScriptBold.otf');
+}
+.logo h1 {
+  color: #ffffff;
+  font-family: 'ShorelinesScriptBold';
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  grid-column: 4 / 10;
+  grid-row: 1;
+  padding-top: 5px;
+}
+nav {
+  text-align: right;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  color: #d3d3d3;
+  font-family: 'ShorelinesScriptBold';
+  font-size: 1.75em;
+  padding: 15px;
+  margin: 0;
+  text-decoration: none;
+}
+.banner {
+  background: url('img/photos-misc5-pa.jpg');
+  background-size: cover;
+  grid-column: 1 / 10;
+  grid-row: 2 / 13;
+}
+.heading {
+  font-family: 'ShorelinesScriptBold';
+  font-size: 2.5em;
+  color: #d3d3d3;
+  grid-column: 4 / 7;
+  grid-row: 3;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*.banner {
+  background: url('img/photos-wall1-pa.jpg');
+  background-size: cover;
+  font-family: 'Poiret One';
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  color: #d2aad3;
+  align-items: center;
+  grid-column: 1 / 10;
+  grid-row: 2;
+}*/
+.maingrid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(16, 100px);
+  grid-gap: 5px;
+  margin-top: 20px;
+}
+.firstphoto {
+  background: url('img/photos-yoga2-pa.jpg');
+  background-size: cover;
+  grid-column: 2 / 6;
+  grid-row: 1 / 5;
+}
+.firsttext {
+  background-color: #abd3aa;
+  grid-column: 6 / 9;
+  grid-row: 1 / 5;
+}
+.firsttext p {
+  color: #808080;
+  font-family: 'Poiret One';
+  font-size: 1.4em;
+  margin: 3%;
+}
+.secondtext {
+  background-color: #f0f0f0;
+  grid-column: 2 / 5;
+  grid-row: 5 / 10;
+}
+.secondtext p {
+  color: #808080;
+  font-family: 'Poiret One';
+  font-size: 1.4em;
+  margin: 5%;
+}
+.secondphoto {
+  background: url('img/photos-yoga6-pa.jpg');
+  background-size: cover;
+  grid-column: 5 / 9;
+  grid-row: 5 / 10;
+}
+.thirdphoto {
+  background: url('img/photos-yoga4-pa.jpg');
+  background-size: cover;
+  grid-column: 2 / 6;
+  grid-row: 10 / 15;
+}
+.thirdtext {
+  background-color: #abd3aa;
+  grid-column: 6 / 9;
+  grid-row: 10 / 17;
+}
+.thirdtext p {
+  color: #808080;
+  font-family: 'Poiret One';
+  font-size: 1.5em;
+  margin: 5%;
+}
+.fourthtext {
+  background-color: #abd3aa;
+  grid-column: 2 / 7;
+  grid-row: 15 / 17;
+}
+/*.bottomgrid {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(18, 50px);
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+.fourthphoto {
+  background: url('img/photos-yoga1-pa.jpg');
+  background-size: cover;
+  grid-column: 1 / 8;
+  grid-row: 1 / 7;
+}
+.fifthphoto {
+  background: url('img/photos-yoga5-pa.jpg');
+  background-size: cover;
+  grid-column: 8 / 14;
+  grid-row: 1 / 9;
+}
+.sixthphoto {
+  background: url('img/photos-yoga3-pa.jpg');
+  background-size: cover;
+  grid-column: 14 / 19;
+  grid-row: 1 / 9;
+}*/
+.footergrid {
+  display: grid;
+  background: url('img/brick-background-pa.jpg');
+  background-size: cover;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(4, 85px);
+  font-family: 'Poiret One';
+  margin-top: 300px;
+}
+.address {
+  grid-column: 4 / 7;
+  grid-row: 2 / 4;
+  border-right: #383838 solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.name {
+  grid-column: 7 / 10;
+  grid-row: 2 / 4;
+  border-right: #383838 solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialmedia {
+  grid-column: 10 / 13;
+  grid-row: 2 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.socialmedia ul li {
+  display: inline;
+  padding: 15px;
+  text-decoration: none;
+}
+/*footer {
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+footer h2 {
+  color: #5f5f5f;
+  font-family: 'Poiret One';
+  font-size: 25px;
+  text-transform: lowercase;
+}*/
+
+
+
+/*body {
+  background-image: url('img/peach-background-pa.jpg');
+  background-size: cover;
+  position: relative;
+}
+nav {
+  text-align: right;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  color: #d2aad3;
+  font-family: 'Poiret One';
+  font-size: 35px;
+  padding: 15px;
+  text-decoration: none;
+}
+img {
+  width: 25%;
+  height: auto;
+}
+p {
+  font-family: 'Poiret One';
+  font-size: 24px;
+  color: #5f5f5f;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  margin-top: 200px;
+}
+footer h2 {
+  color: #5f5f5f;
+  font-family: 'Poiret One';
+  font-size: 25px;
+  text-transform: lowercase;
+}
+.socialmedia ul li {
+  display: inline;
+  padding: 15px;
+  padding-bottom: 0;
+  text-decoration: none;
+}
+.socialmedia ul li:first-child {
+  border-right: #d3d3d3 solid 2px;
+}*/

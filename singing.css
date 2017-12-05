@@ -1,0 +1,114 @@
+.headergrid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: 100px repeat(11, 75px);
+}
+.logo {
+  background: #d3d3d3;
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
+@@font-face {
+  font-family: "ShorelinesScriptBold";
+  src: url('ShorelinesScriptBold.otf');
+}
+.logo h1 {
+  color: #ffffff;
+  font-family: 'ShorelinesScriptBold';
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar{
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  grid-column: 4 / 10;
+  grid-row: 1;
+  padding-top: 5px;
+}
+nav {
+  text-align: right;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  color: #d3d3d3;
+  font-family: 'ShorelinesScriptBold';
+  font-size: 1.75em;
+  padding: 15px;
+  margin: 0;
+  text-decoration: none;
+}
+.banner {
+  background: url('img/photos-wall1-pa.jpg');
+  background-size: cover;
+  grid-column: 1 / 10;
+  grid-row: 2;
+  font-family: 'Poiret One';
+  font-size: 2.5em;
+  color: #808080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footergrid {
+  display: grid;
+  background: url('img/brick-background-pa.jpg');
+  background-size: cover;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(4, 85px);
+  font-family: 'Poiret One';
+  margin-top: 300px;
+}
+.address {
+  grid-column: 4 / 7;
+  grid-row: 2 / 4;
+  border-right: #383838 solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.name {
+  grid-column: 7 / 10;
+  grid-row: 2 / 4;
+  border-right: #383838 solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialmedia {
+  grid-column: 10 / 13;
+  grid-row: 2 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.socialmedia ul li {
+  display: inline;
+  padding: 15px;
+  text-decoration: none;
+}
