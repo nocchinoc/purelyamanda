@@ -8,6 +8,9 @@
 /* NOTE
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%; }
 body {
@@ -68,6 +71,7 @@ header {
   position: fixed;
   width: 100%;
   min-height: 100px;
+  background: #fff;
 }
 .logo {
   background-color: #d3d3d3;
@@ -95,7 +99,6 @@ header {
 nav ul {
   list-style-type: none;
   margin: 0;
-  overflow: scroll;
   padding: 5px 20px 0;
   position: relative;
   z-index: 2;
@@ -133,6 +136,15 @@ label {
     cursor: pointer;
     margin: 7px 30px;
 }
+  header {
+    position: relative;
+  }
+  .hero {
+    margin-top: 0px !important;
+  }
+  nav, .navbar{
+    width: 100%;
+  }
   nav ul {
     text-align: center;
     display: none;
@@ -260,8 +272,13 @@ label {
   font-family: 'Poiret One';
   font-size: 3.0rem;
   color: #808080;
+  text-shadow: 2px 2px 12px;
+  background-color: #e6e6e6;
+  box-shadow: 2px 2px 12px;
+  border-radius: 10px;
+  margin: 12% 5%;
   float: left;
-  margin: 15% 5%;
+  padding: 5%;
   width: 90%;
   text-align: center;
 }
@@ -315,7 +332,7 @@ label {
 }
 .main #elbowsmile img {
   float: right;
-  margin: 10% 10% 0 5%;
+  margin: 10% 10% 2.5% 5%;
 }
 .main #mattguitar img {
   float: left;
